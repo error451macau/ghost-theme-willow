@@ -10,10 +10,10 @@
             </h2>
 
             <div class="c-post-list__meta">
-                {{date format="MMMM DD, YYYY"}}
+                {{date format="YYYY年MM月DD日"}}
 
                 {{#if tags}}
-                    in
+                    於
                     <span class="c-post-list__meta__tags">
                         {{#foreach tags}}
                             <a href="{{url}}" title="{{name}}">#{{name}}</a>
